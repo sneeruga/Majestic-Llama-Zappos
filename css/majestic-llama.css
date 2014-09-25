@@ -1,0 +1,41 @@
+body {
+    margin-top: 70px;
+}
+nav {
+    margin: 0 5px;
+}
+
+.active {
+    background: #f1f1f1;
+}
+hr {
+    border-color: #6F4242;
+    max-width: 400px;
+}
+
+.img-center {
+    float: none;
+    margin: 0 auto;
+}
+
+.img-border {
+    border: #6F4242 solid 3px;
+}
+
+
+footer {
+    margin: 10px;
+    padding: 10px 0;
+    background: #f8f8f8;
+    border-color: #e7e7e7;
+}
+
+@media screen and (min-width:768px) {
+    .navbar-nav {
+        float: right;
+    }
+    
+    .img-center {
+        max-width: 80%;
+    }
+}
