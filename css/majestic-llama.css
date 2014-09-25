@@ -1,8 +1,16 @@
 body {
     margin-top: 70px;
+    background: url("../img/wooden.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
+
+
+
 nav {
-    margin: 0 5px;
+  
 }
 nav ul li {
     font-size: 1.25em;
@@ -23,18 +31,29 @@ hr {
 .img-center {
     float: none;
     margin: 0 auto;
+    max-width: 90%;
 }
 
 .img-border {
     border: #6F4242 solid 3px;
 }
 
+.section-title {
+    background: #f8f8f8;
+    padding: 5px 0 5px 0;
+    
+}
 
+.content {
+    padding-bottom: 20px;
+    background: #f8f8f8; 
+    
+}
 footer {
-    margin: 10px;
     padding: 10px 0;
     background: #f8f8f8;
     border-color: #e7e7e7;
+    margin-top: 18px;
 }
 
 @media screen and (min-width:768px) {
@@ -44,5 +63,14 @@ footer {
     
     .img-center {
         max-width: 80%;
+    }
+}
+
+
+@media screen and (min-width:1224px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
     }
 }
