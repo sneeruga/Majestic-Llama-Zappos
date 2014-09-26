@@ -26,6 +26,7 @@ nav ul li:hover {
 hr {
     border-color: #6F4242;
     max-width: 400px;
+    margin-top:-10px;
 }
 
 .img-center {
@@ -49,6 +50,10 @@ hr {
     background: #f8f8f8; 
     
 }
+
+.form-group {
+    max-width: 70%;
+}
 footer {
     padding: 10px 0;
     background: #f8f8f8;
@@ -63,6 +68,10 @@ footer {
     
     .img-center {
         max-width: 80%;
+    }
+    
+    .form-group {
+        max-width: 70%;
     }
 }
 
