@@ -25,9 +25,22 @@ nav ul li:hover {
 }
 hr {
     border-color: #6F4242;
-    max-width: 400px;
+    max-width: 370px;
     margin-top:-10px;
 }
+
+.about-hr {
+    border-color: #6F4242;
+    max-width: 130px;
+    margin-top:-10px;
+}
+
+.contact-hr {
+    border-color: #6F4242;
+    max-width: 180px;
+    margin-top:-10px;
+}
+
 
 .img-center {
     float: none;
@@ -47,13 +60,20 @@ hr {
 
 .content {
     padding-bottom: 20px;
-    background: #f8f8f8; 
-    
+    background: #f8f8f8;     
+}
+.intro-para{
+    font-style: italic;
+}
+p {
+    font-size: 1.5em;
 }
 
 .form-group {
     max-width: 70%;
 }
+
+
 footer {
     padding: 10px 0;
     background: #f8f8f8;
@@ -73,6 +93,8 @@ footer {
     .form-group {
         max-width: 70%;
     }
+    
+ 
 }
 
 
