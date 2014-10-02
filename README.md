@@ -1,4 +1,4 @@
-Majestic Llama - Zappos Internship Submission (NOT SUBMITTED YET!) 
+Majestic Llama -  
 
 Webpage Link: http://karthikvthota.github.io/Majestic-Llama-Zappos/
 
